@@ -5,7 +5,7 @@ MERN (Mongo, express, React, and Nodejs)
 # Perequesites
 
 
-1- Heroku CLI
-[Heroku](https://dashboard.heroku.com/)
-2- Git Installed
+* [Heroku CLI](https://dashboard.heroku.com/)
+* [Git Installed](https://git-scm.com/downloads)
+* [Yarn](https://yarnpkg.com/getting-started/install)
 

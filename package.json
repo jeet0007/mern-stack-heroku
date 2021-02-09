@@ -5,8 +5,7 @@
   "author": "Jeet Singh <taranjeet0007@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false cd client && yarn install && yarn build"
+    "start": "nodemon server.js"
   },
   "engines": {
     "node": "12.19.0"

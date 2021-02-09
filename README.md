@@ -9,3 +9,9 @@ MERN (Mongo, express, React, and Nodejs)
 * [Git Installed](https://git-scm.com/downloads)
 * [Yarn](https://yarnpkg.com/getting-started/install)
 
+# Running the application 
+In the root directory 
+``` Bash
+cd client
+yarn start
+```

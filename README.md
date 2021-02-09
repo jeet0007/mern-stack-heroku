@@ -1,8 +1,7 @@
 # Deploying your mern stack app onto Heroku
 We're going to walk you how to deploy a MERN stack app to Heroku.
-![Dependencies](gradle/dependency-graph/project.dot.png)
+#
 MERN (Mongo, express, React, and Nodejs)
-
 # Perequesites
 
 

@@ -36,7 +36,6 @@ const App = ({ match }) => {
         <h3 className="error-text">{error}</h3>
       ) : (
             <>
-
               <div className="app__posts">
                 {posts.map((post) => (
                   <Card key={post._id} post={post} />

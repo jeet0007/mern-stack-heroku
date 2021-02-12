@@ -5,7 +5,7 @@
   "author": "Jeet Singh <taranjeet0007@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "docker-build-client": "NPM_CONFIG_PRODUCTION=false cd client && yarn install && yarn build",
     "docker-build-webapp": "concurrently \"yarn docker-build-client\" \"yarn start\""
   },

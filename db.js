@@ -7,11 +7,15 @@ const connectDb = async () => {
             useUnifiedTopology: true,
             useFindAndModify: true,
             useCreateIndex: true
-        })
+        }, (err => {
+            if (err) {
+                console.log("Connection to database failed 🎇")
+                console.log(err)
+            }
+        }))
         console.log("Connection to database success 👍")
     } catch (error) {
-        console.log("Connection to database failed 🎇")
-        console.log(error)
+        console.log("Error")
     }
 }
 module.exports = connectDb;

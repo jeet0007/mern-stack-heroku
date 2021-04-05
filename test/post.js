@@ -23,7 +23,5 @@ describe("Posts Api", () => {
                 })
         })
     })
-
-    describe("Create a new post")
 })
 

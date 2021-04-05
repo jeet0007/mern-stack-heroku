@@ -30,19 +30,20 @@ const App = ({ match }) => {
 
   return (
     <div className="app">
+      <h1> This is the new version : 1.0</h1>
       {loading ? (
         <h3 className="loading-text">Loading...</h3>
       ) : error ? (
         <h3 className="error-text">{error}</h3>
       ) : (
-            <>
-              <div className="app__posts">
-                {posts.map((post) => (
-                  <Card key={post._id} post={post} />
-                ))}
-              </div>
-            </>
-          )}
+        <>
+          <div className="app__posts">
+            {posts.map((post) => (
+              <Card key={post._id} post={post} />
+            ))}
+          </div>
+        </>
+      )}
     </div>
   );
 };

@@ -30,7 +30,7 @@ const App = ({ match }) => {
 
   return (
     <div className="app">
-      <h1> This is the new version : 1.0</h1>
+      <h1> This is the new version : 2.0</h1>
       {loading ? (
         <h3 className="loading-text">Loading...</h3>
       ) : error ? (

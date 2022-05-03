@@ -22,7 +22,7 @@
     "forever": "^3.0.4",
     "gh-pages": "^3.1.0",
     "mocha": "^8.3.2",
-    "mongoose": "^5.11.15",
+    "mongoose": "^6.3.2",
     "nodemon": "^2.0.7"
   }
 }

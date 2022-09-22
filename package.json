@@ -14,7 +14,7 @@
     "node": "14.15.5"
   },
   "dependencies": {
-    "chai": "^4.3.4",
+    "chai": "^4.3.6",
     "chai-http": "^4.3.0",
     "concurrently": "^6.0.1",
     "dotenv": "^16.0.2",
